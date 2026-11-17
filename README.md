@@ -92,7 +92,7 @@ Les principales opérations réalisées sont :
 - Gravure du circuit imprimé.
 - Obtention du PCB après traitement.
 
-**Remarque :** les travaux présentés concernent la conception électronique et la fabrication physique du circuit imprimé. L'assemblage des composants et les essais du système complet n'ont pas été réalisés par le concepteur de la carte.
+**Remarque :** l'assemblage des composants et les essais du système complet n'ont pas été réalisés par le concepteur de la carte. Un retour positif a toutefois été reçu du groupe à l'origine de la demande, indiquant que le dispositif a fonctionné.
 
 ## 7. Outils et technologies
 
@@ -108,13 +108,29 @@ Les principales opérations réalisées sont :
 
 Cette section présente les différentes vues de la conception électronique et du circuit imprimé réalisées sous KiCad.
 
-*Les vues 3D et captures de conception seront ajoutées dans le dossier `3D_DESIGN/`.*
+| Vue de conception 3D 1 | Vue de conception 3D 2 |
+|---|---|
+| ![Vue 3D 1](3D_DESIGN/IMG-20261115-WA0006.jpg) | ![Vue 3D 2](3D_DESIGN/IMG-20261115-WA0007.jpg) |
+
+| Vue de conception 3D 3 | Vue de conception 3D 4 |
+|---|---|
+| ![Vue 3D 3](3D_DESIGN/IMG-20261115-WA0008.jpg) | ![Vue 3D 4](3D_DESIGN/IMG-20261115-WA0009.jpg) |
+
+| Vue de conception 3D 5 | Vue de conception 3D 6 |
+|---|---|
+| ![Vue 3D 5](3D_DESIGN/IMG-20261115-WA0010.jpg) | ![Vue 3D 6](3D_DESIGN/IMG-20261115-WA0011.jpg) |
 
 ## 9. Galerie de réalisation
 
-Cette galerie présentera les photographies du circuit imprimé obtenu après les différentes étapes de fabrication.
+Cette galerie présente les photographies du circuit imprimé après sa fabrication.
 
-*Les photographies du PCB fabriqué seront ajoutées dans le dossier `REALIZATION/`.*
+| Photographie 1 | Photographie 2 |
+|---|---|
+| ![PCB réalisé 1](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.07.jpeg) | ![PCB réalisé 2](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.07%20%281%29.jpeg) |
+
+| Photographie 3 | Photographie 4 |
+|---|---|
+| ![PCB réalisé 3](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.09.jpeg) | ![PCB réalisé 4](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.10.jpeg) |
 
 ## 10. Documentation technique
 
@@ -122,9 +138,9 @@ Les documents techniques associés au projet seront regroupés dans le dossier `
 
 | Document | Description |
 |---|---|
-| Schéma électronique | Schéma complet de la carte |
-| Plan d'implantation | Positionnement des composants |
-| Typon | Support de fabrication du circuit imprimé |
+| [Schéma électronique (PDF)](documents/schematic.pdf) | Schéma complet de la carte |
+| [Plan d'implantation (PDF)](documents/plan%20implantation%20composants.pdf) | Positionnement des composants |
+| [Typon (PDF)](documents/typon.pdf) | Support de fabrication du circuit imprimé |
 
 ## 11. État du projet
 
@@ -134,7 +150,7 @@ Les documents techniques associés au projet seront regroupés dans le dossier `
 | Conception et routage du PCB | Réalisés |
 | Fabrication photochimique du PCB | Réalisée |
 | Assemblage des composants | Non réalisé par le concepteur |
-| Essais du système complet | Non réalisés par le concepteur |
+| Essais du système complet | Non réalisés par le concepteur ; retour positif reçu indiquant que le dispositif a fonctionné |
 
 ---
 
@@ -225,23 +241,39 @@ The main fabrication steps included:
 
 This section presents the different views of the electronic design and printed circuit board created using KiCad.
 
-*3D views and design screenshots will be added to the `3D_DESIGN/` directory.*
+| 3D Design View 1 | 3D Design View 2 |
+|---|---|
+| ![3D view 1](3D_DESIGN/IMG-20261115-WA0006.jpg) | ![3D view 2](3D_DESIGN/IMG-20261115-WA0007.jpg) |
+
+| 3D Design View 3 | 3D Design View 4 |
+|---|---|
+| ![3D view 3](3D_DESIGN/IMG-20261115-WA0008.jpg) | ![3D view 4](3D_DESIGN/IMG-20261115-WA0009.jpg) |
+
+| 3D Design View 5 | 3D Design View 6 |
+|---|---|
+| ![3D view 5](3D_DESIGN/IMG-20261115-WA0010.jpg) | ![3D view 6](3D_DESIGN/IMG-20261115-WA0011.jpg) |
 
 ## 9. Fabrication Gallery
 
-This section presents photographs of the printed circuit board obtained after the fabrication process.
+This gallery presents photographs of the printed circuit board after fabrication.
 
-*Photographs of the fabricated PCB will be added to the `REALIZATION/` directory.*
+| Fabrication Photo 1 | Fabrication Photo 2 |
+|---|---|
+| ![PCB photo 1](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.07.jpeg) | ![PCB photo 2](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.07%20%281%29.jpeg) |
+
+| Fabrication Photo 3 | Fabrication Photo 4 |
+|---|---|
+| ![PCB photo 3](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.09.jpeg) | ![PCB photo 4](REALIZATION/WhatsApp%20Image%202026-06-11%20at%2019.06.10.jpeg) |
 
 ## 10. Technical Documentation
 
-Technical documents, including the electronic schematic, component layout and PCB artwork, will be organized in the `documents/` directory.
+Technical documents, including the electronic schematic, component layout and PCB artwork, are available in the [`documents/`](documents/) directory.
 
 | Document | Description |
 |---|---|
-| Electronic Schematic | Complete electronic circuit |
-| Component Layout | Component placement |
-| PCB Artwork | Printed circuit board manufacturing artwork |
+| [Electronic Schematic (PDF)](documents/schematic.pdf) | Complete electronic circuit |
+| [Component Layout (PDF)](documents/plan%20implantation%20composants.pdf) | Component placement |
+| [PCB Artwork (PDF)](documents/typon.pdf) | Printed circuit board manufacturing artwork |
 
 ## 11. Project Status
 
@@ -251,7 +283,7 @@ Technical documents, including the electronic schematic, component layout and PC
 | PCB design and routing | Completed |
 | Photochemical PCB fabrication | Completed |
 | Component assembly | Not performed by the designer |
-| Complete system testing | Not performed by the designer |
+| Complete system testing | Not performed by the designer; positive feedback received indicating that the device worked |
 
 ---
 
